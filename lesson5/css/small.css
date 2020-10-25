@@ -79,7 +79,7 @@ nav button {
 }
 
 nav {
-    background-color: rgb(25, 60, 156);
+    background-color: rgba(25, 60, 156, 0.959);
     font-family: sans-serif;
 }
 
