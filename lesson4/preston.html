@@ -1,66 +1,131 @@
-<!doctype html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Preston</title>
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-  <link rel="stylesheet" href="css/normalize.css">
-
-  <script type="text/javascript" src="js/responsiveMenu.js" defer></script>
-  <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
-
+<html lang="en"><head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="favicon.ico">
+   <title>Sunny Side</title>
+   <link rel="stylesheet" href="css/large.css">
+   <link rel="stylesheet" href="css/medium.css">
+   <link rel="stylesheet" href="css/small.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
-
-
-
-
 <body>
+   <div id="message" class="hideme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+   <header>
+       <picture>
+           <img src="images/iconfinder_sunshine-symbol_110800.png" alt="logo">
+       </picture>
+       <section class="headings">
+           <h1>Sunny Side</h1>
+           <div class="motto">Clear Weather Forecasting </div>
+       </section>
+   </header>
+
+   <nav class="clearfix">
+       <ul id="primaryNav" class="hide">
+           <li><a href="#">Home</a></li>
+           <li class="active"><a href="#">Preston</a></li>
+           <li><a href="#">Soda Springs</a></li>
+           <li><a href="#">Fish Haven</a></li>
+           <li><a href="#">Storm Center</a></li>
+           <li><a href="#">Gallery</a></li>
+       </ul>
+
+   </nav>
+
+   <!--   Content goes in here-->
+
+   <main>
+       <h1>Preston, Idaho</h1>
+       <section class="hero">
+           <img class="hero-image" src="" alt="FortyAcreLane">
+           <div class="weather-summary">
+               <h5 class="text-box">Weather Summary</h5>
+               <p class="text-box">High: 13°C</p>
+               <p class="text-box">Low: -5°C</p>
+               <p class="text-box">Wind: 10 km/h</p>
+           </div>
+       </section>
+
+       <hr>
+
+       <h2>Five Day Forecast</h2>
 
 
-  <div id="headerWrapper">
-     <header class="clearfix">
-        <img src="images/iconfinder_sunshine-symbol_110800.png" alt="logo";>
-        <div>
-            <h1>Sunny Side</h1>
-            <h2>Above the Clouds</h2>
-        </div>
-     </header>
-  </div>
+       <section class="forecast">
+           <div>
+               <h5>Monday</h5>
+               <img src="images/sunny.png" alt="sunny">
+               <p>10°C</p>
+           </div>
+
+           <div>
+               <h5>Tuesday</h5>
+               <img src="images/cold.png" alt="cold">
+               <p>-5°C</p>
+           </div>
+
+           <div>
+               <h5>Wednesday</h5>
+               <img src="images/rain.png" alt="rain">
+               <p>7°C</p>
+           </div>
+
+           <div>
+               <h5>Thursday</h5>
+               <img src="images/snow.png" alt="snow">
+               <p>-1°C</p>
+           </div>
+
+           <div>
+               <h5>Friday</h5>
+               <img src="images/thunder.png" alt="thunder">
+               <p>10°C</p>
+           </div>
+       </section>
+
+       <div class="placeholder">
+           <img class="bulleye" src="" alt="MillerPark">
+           <h2 class="text-bulleye">Article</h2>
+           <p class="text-bulleye">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eligendi debitis, distinctio ad, rerum numquam odit dicta. Repellendus reiciendis, illo incidunt facilis, sit odio alias mollitia modi voluptatibus nesciunt consequatur, blanditiis in animi minima nisi pariatur totam labore. Dignissimos, reiciendis omnis delectus asperiores explicabo, numquam reprehenderit quidem amet, harum aperiam placeat quibusdam eius labore libero error nam neque! Sapiente ipsum quo cumque itaque, ullam amet placeat iure praesentium, perferendis voluptate officia est, quidem totam similique dicta quas ducimus omnis veritatis beatae fuga eum mollitia. Quia unde fugiat cupiditate consectetur, error quod! Repellat, error esse! Rem deleniti, repellendus iusto alias aut assumenda? Aspernatur est maiores eaque, dolores libero quibusdam explicabo et vero tenetur, fugit corporis natus odio laborum! Praesentium perspiciatis natus maiores provident culpa a unde molestiae impedit dicta, aspernatur optio dolorem quis. Dolorem praesentium laborum quibusdam laboriosam dolorum id illo a recusandae, vero, soluta neque necessitatibus optio nulla rerum, inventore.</p>
+       </div>
+
+       <section class="placeholder">
+
+           <h2>Contact Us</h2>
+
+           <section class="grid-contactus">
+
+               <div class="address">
+                   <h4>Address:</h4>
+                   <p> The Weather Center <br>
+                       123 Main Street. <br>
+                       Franklin, MI 8765</p>
+               </div>
+
+               <div class="phone">
+                   <h4>Phone:</h4>
+                   <p>(801) 555-1234</p>
+                   <h4>Email:</h4>
+                   <p>contact@yoururl.com</p>
+               </div>
+
+               <div class="map">
+                   <img src="" alt="PrestonMap">
+               </div>
+
+           </section>
+       </section>
+
+   </main>
+
+   <footer>
+       © 2020  -  Leandro Ijano Rodrigues  -  BYU-Idaho  -  WDD230  -  
+       <span class="footer-date">Date: <span id="currentdate">Saturday, October 17, 2020</span></span>
+       <script src="js/script.js"></script>
+   </footer>
 
 
-  <!-- page navigation links here-->
-  <div id="navWrapper">  
-     <nav class="clearfix">
-     <button oneclick="toggleMenu()">blablabla</button>    
-     <ul class="hide" id="primaryNav">
-         <li><a href="index.html">Home</a></li>
-         <li class="active"><a href="preston.html">Preston</a></li>
-         <li><a href="#">Soda Springs</a></li>
-         <li><a href="#">Fish Haven</a></li>
-         <li><a href="#">Storm Center</a></li>
-         <li><a href="#">Gallery</a></li>
-     </ul>
-     </nav>
-  </div>
 
-  <!--page content here-->
-     <main>
-     <h1>Preston</h1>   
-     <div>Hero and summary will eventually go here.</div> 
-     <div>Article and relate image will go here soon.</div> 
-     <div>Contact Us with an address and map wil end up here.</div> 
-
-
-     </main><!--end content-->
-
-   <div id="footWrapper">
-     <footer></footer>
-   </div>
-
-
-</body>
-
-</html>
+</body></html>
